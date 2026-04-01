@@ -1,10 +1,9 @@
 import React from 'react'
+import Home from './components/Home/Home'
 
 const App = () => {
   return (
-    <div>
-        <h1 >Grocify Wesite</h1>
-    </div>
+    <Home />
   )
 }
 

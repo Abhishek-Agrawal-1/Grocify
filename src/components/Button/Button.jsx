@@ -3,7 +3,7 @@ import React from 'react'
 const Button = (props) => {
   return (
     <button className='bg-gradient-to-b bg-orange-400 to-orange-500 text-white 
-    px-8 py-3 text-lg rounded-lg hover:scale-105 hover:to-orange-600 
+    px-8 py-3 md:text-lg text-md rounded-lg hover:scale-105 hover:to-orange-600 
     transition-all duration-300 cursor-pointer'>
         {props.content}
     </button>

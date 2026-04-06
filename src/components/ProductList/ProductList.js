@@ -31,7 +31,7 @@ const products = [
         name: 'Butter',
         price: '$4.99',
         image: Butter,
-        category : 'Dairy'
+        category: 'Dairy'
     },
     {
         id: 2,

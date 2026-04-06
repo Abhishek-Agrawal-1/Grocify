@@ -15,9 +15,9 @@ const Process = () => {
                 </span>
 
                 <div className='flex items-center gap-x-5 mt-10'>
-                        <span className='flex justify-center items-center text-3xl bg-gradient-to-b from-orange-400 to-orange-500 text-white w-15 h-15 rounded-full'>
-                            {item.icon}
-                        </span>
+                    <span className='flex justify-center items-center text-3xl bg-gradient-to-b from-orange-400 to-orange-500 text-white w-15 h-15 rounded-full'>
+                        {item.icon}
+                    </span>
 
                     <div className='flex-1'>
                         <h4 className='text-zinc-800 text-2xl font-bold'>{item.title}</h4>

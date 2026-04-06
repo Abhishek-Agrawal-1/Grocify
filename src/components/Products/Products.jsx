@@ -1,9 +1,8 @@
-import React from 'react'
-import Heading from '../Heading/Heading'
 import { useState } from 'react'
-import ProductList from '../ProductList/ProductList'
-import Cards from '../Cards/Cards'
 import Button from '../Button/Button'
+import Cards from '../Cards/Cards'
+import Heading from '../Heading/Heading'
+import ProductList from '../ProductList/ProductList'
 
 
 const Products = () => {
@@ -12,7 +11,7 @@ const Products = () => {
   const [activeTabs, setActiveTabs] = useState('All');
 
   let filteredItems = activeTabs === 'All'
-  ? ProductList : ProductList.filter(product => product.category === activeTabs);
+    ? ProductList : ProductList.filter(product => product.category === activeTabs);
 
 
   const renderCards = filteredItems.slice(0, 8).map(product => {
@@ -47,9 +46,9 @@ const Products = () => {
           {renderCards}
         </div>
 
-          <div className='mt-15 mx-auto w-fit'>
-            <Button content = "View All" />
-          </div>
+        <div className='mt-15 mx-auto w-fit'>
+          <Button content="View All" />
+        </div>
 
       </div>
     </section>
